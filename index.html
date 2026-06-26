@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Arshman 的个人产品空间，聚焦翻译工具、饮食记录与训练实践。"
+    />
+    <meta name="theme-color" content="#f5f5f3" />
+    <title>Arshman · 个人产品</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" data-sanity-brand href="#top" aria-label="返回顶部">Arshman</a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#products">产品</a>
+        <a href="#resources">资源</a>
+        <a href="#about">关于</a>
+      </nav>
+      <button class="header-contact notify-button" type="button" data-product="联系与合作">联系我</button>
+    </header>
+
+    <main id="top">
+      <section class="glass-home" aria-labelledby="home-title" data-sanity-home>
+        <div class="glass-home-frame">
+          <div class="glass-home-bg" data-sanity-home-bg></div>
+          <div class="glass-home-shade" aria-hidden="true"></div>
+          <div class="glass-home-content">
+            <h1 id="home-title" data-sanity-home-title data-text="VarshVia">VarshVia</h1>
+          </div>
+          <a class="glass-scroll" href="#intro" aria-label="继续浏览">
+            <span>SCROLL</span>
+            <i aria-hidden="true">↓</i>
+          </a>
+        </div>
+      </section>
+
+      <section class="hero" id="intro" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">独立开发者 · 产品实践</p>
+          <h1 id="hero-title" data-sanity-brand>Arshman</h1>
+          <p class="hero-intro" data-sanity-tagline>做一些简单、顺手，能真正融入日常的产品。</p>
+          <a class="text-link" href="#products">查看我的产品 <span aria-hidden="true">↓</span></a>
+        </div>
+
+        <div class="hero-stage reveal" aria-label="产品界面预览">
+          <div class="hero-browser">
+            <div class="browser-bar">
+              <span></span><span></span><span></span>
+              <div class="address">translate</div>
+            </div>
+            <div class="browser-body">
+              <div class="selection-line short"></div>
+              <div class="selection-line"></div>
+              <div class="selection-line medium"></div>
+              <div class="translation-popover">
+                <div class="popover-top"><b>翻译</b><span>EN → 中</span></div>
+                <p>让阅读外文内容自然一点。</p>
+                <div class="sound-wave"><i></i><i></i><i></i><i></i><i></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-phone">
+            <div class="phone-island"></div>
+            <div class="phone-head"><span>今天</span><b>轻记食</b></div>
+            <div class="nutrition-ring"><strong>1,486</strong><span>剩余 kcal</span></div>
+            <div class="macro-row"><span>蛋白质<b>92g</b></span><span>碳水<b>168g</b></span><span>脂肪<b>48g</b></span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band" id="about">
+        <p class="section-label">我在做什么</p>
+        <p class="statement reveal">从消除语言障碍，到把饮食和训练变成清晰的日常系统。每个产品都来自我自己真实遇到的问题。</p>
+      </section>
+
+      <section class="products" id="products" aria-labelledby="products-title">
+        <div class="section-heading reveal">
+          <p class="section-label">产品</p>
+          <h2 id="products-title">正在生长的想法</h2>
+        </div>
+
+        <article class="product product-translate reveal" data-sanity-product="chrome-translate">
+          <div class="product-copy">
+            <div class="product-meta"><span>01</span><span class="status status-building">开发中</span></div>
+            <h3>Chrome 翻译扩展</h3>
+            <p>划词即译，减少打断。让网页阅读保持原有节奏，不必在标签页之间来回切换。</p>
+            <button class="product-action notify-button" type="button" data-product="Chrome 翻译扩展">上线时通知我 <span aria-hidden="true">→</span></button>
+          </div>
+          <div class="visual visual-extension" aria-label="Chrome 翻译扩展界面概念图">
+            <img class="sanity-product-image" alt="" hidden />
+            <div class="extension-window">
+              <div class="window-toolbar"><i></i><i></i><i></i><span>notes on building useful things</span></div>
+              <div class="article-lines"><b></b><span></span><span></span><span class="highlight"></span><span></span><span></span></div>
+              <div class="translate-bubble">
+                <small>ENGLISH</small>
+                <p>Useful products begin with careful attention.</p>
+                <hr />
+                <small>简体中文</small>
+                <strong>有用的产品，始于细致的观察。</strong>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="product product-desktop reveal" data-sanity-product="desktop-translator">
+          <div class="product-copy">
+            <div class="product-meta"><span>02</span><span class="status status-concept">构建中</span></div>
+            <h3>桌面翻译软件</h3>
+            <p>系统级快捷翻译工具。选中、唤起、理解，三步合成一个自然动作。</p>
+            <button class="product-action notify-button" type="button" data-product="桌面翻译软件">关注进展 <span aria-hidden="true">→</span></button>
+          </div>
+          <div class="visual visual-desktop" aria-label="桌面翻译软件界面概念图">
+            <img class="sanity-product-image" alt="" hidden />
+            <div class="desktop-panel">
+              <div class="desktop-top"><span>自动检测</span><span>简体中文</span><b>•••</b></div>
+              <div class="desktop-columns">
+                <p>Make technology feel a little more human.</p>
+                <p>让技术多一点人的感觉。</p>
+              </div>
+              <div class="desktop-bottom"><kbd>⌘</kbd><kbd>⇧</kbd><kbd>T</kbd><span>随时唤起</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="product product-diet reveal" data-sanity-product="lightdiet">
+          <div class="product-copy">
+            <div class="product-meta"><span>03</span><span class="status status-testing">内测中</span></div>
+            <h3>轻记食</h3>
+            <p>记录饮食，但不制造负担。根据个人目标生成每日建议，先从微信小程序开始。</p>
+            <button class="product-action notify-button" type="button" data-product="轻记食">申请体验 <span aria-hidden="true">→</span></button>
+          </div>
+          <div class="visual visual-diet" aria-label="轻记食微信小程序界面概念图">
+            <img class="sanity-product-image" alt="" hidden />
+            <div class="diet-phone">
+              <div class="mini-nav"><span>09:41</span><b>轻记食</b><span>•••</span></div>
+              <div class="greeting"><small>6月18日 星期四</small><h4>今天也轻松吃好</h4></div>
+              <div class="calorie-block"><div><strong>1,860</strong><span>今日目标 kcal</span></div><div class="progress-ring">72<small>%</small></div></div>
+              <div class="meal-list"><span><i>早</i>早餐<b>420 kcal</b></span><span><i>午</i>午餐<b>680 kcal</b></span><span><i>晚</i>晚餐<b>待记录</b></span></div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="resources" id="resources" aria-labelledby="resources-title">
+        <div class="section-heading reveal">
+          <p class="section-label">资源</p>
+          <h2 id="resources-title">亲自实践过的记录</h2>
+          <p>不是标准答案，只是我不断观察、调整和沉淀下来的方法。</p>
+        </div>
+
+        <div class="resource-list reveal">
+          <article class="resource-row" data-sanity-resource="food-log">
+            <div class="document-preview food-document"><img class="sanity-resource-image" alt="" hidden /><span>ARSHMAN / FOOD</span><b>饮食记录</b><i>01</i></div>
+            <div class="resource-info"><span>PDF · 即将发布</span><h3>我的饮食记录</h3><p>每日摄入、宏量营养和阶段变化的持续记录。</p></div>
+            <button class="circle-action notify-button" type="button" data-product="饮食记录 PDF" aria-label="订阅饮食记录发布通知">↗</button>
+          </article>
+          <article class="resource-row" data-sanity-resource="training-plan">
+            <div class="document-preview training-document"><img class="sanity-resource-image" alt="" hidden /><span>ARSHMAN / TRAINING</span><b>训练计划</b><i>02</i></div>
+            <div class="resource-info"><span>PDF · 即将发布</span><h3>我的训练计划</h3><p>训练安排、动作选择与渐进调整的实践版本。</p></div>
+            <button class="circle-action notify-button" type="button" data-product="训练计划 PDF" aria-label="订阅训练计划发布通知">↗</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="closing reveal">
+        <p class="section-label">保持联系</p>
+        <h2>好产品，值得慢慢做。</h2>
+        <p>我会在这里持续记录产品的进展，以及那些真正有用的细节。</p>
+        <button class="closing-contact notify-button" type="button" data-product="联系与合作">联系方式即将开放 <span aria-hidden="true">↗</span></button>
+      </section>
+    </main>
+
+    <footer>
+      <span data-sanity-copyright>© 2026 Arshman</span>
+      <span data-sanity-footer>独立设计与开发</span>
+    </footer>
+
+    <dialog class="notify-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" type="button" aria-label="关闭">×</button>
+      <p class="section-label">进展通知</p>
+      <h2 id="dialog-title">第一时间告诉你</h2>
+      <p class="dialog-copy"><span id="dialog-product">产品</span>的订阅入口正在准备中。你可以先留下邮箱，正式发布前我们会接入通知服务。</p>
+      <form id="notify-form">
+        <label for="email">邮箱</label>
+        <div class="email-row"><input id="email" type="email" name="email" placeholder="you@example.com" required /><button type="submit">订阅</button></div>
+      </form>
+      <p class="form-note">预览模式不会发送或保存你的邮箱。</p>
+    </dialog>
+
+    <script src="./sanity-content.js?v=20260627-home-title"></script>
+    <script src="./script.js?v=20260627-home-title"></script>
+  </body>
+</html>
