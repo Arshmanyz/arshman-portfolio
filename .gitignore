@@ -5,3 +5,6 @@ dist/
 *.log
 *.zip
 cloudflare-pages-upload/
+assets/*-source.png
+assets/*-preview.png
+assets/home-bg-preview.jpg
